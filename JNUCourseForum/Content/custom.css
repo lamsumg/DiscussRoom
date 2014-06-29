@@ -1,0 +1,172 @@
+body {
+    position: relative;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2.5em;
+}
+/*==========================nav style==============================*/
+
+.navbar .navbar-brand {
+    color: rgb(255, 203, 62);
+    font-size: 1.5em;
+    padding: 0px;
+    margin-left: 0px !important;
+}
+.navbar-brand span {
+    vertical-align: text-bottom;
+}
+.logo {
+    margin-right: 10px;
+}
+.navbar-default {} #account-link {
+    font-size: 1.25em;
+}
+#account-link:hover,
+#account-link:focus {
+    color: #666;
+}
+.portrait {
+    margin: -10px 10px;
+}
+.forum-nav span {
+    color: rgba(36, 151, 235, 0.9);
+}
+/*==========================carousel style==============================*/
+
+.carousel-plot {
+    margin-top: 50px;
+}
+.carousel-plot .item img {
+    width: 100%;
+    margin: 0 auto;
+}
+.carousel-fade .item {
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+.carousel-fade .active.left {
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+}
+.carousel-fade .next {
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+.carousel-fade .active.left {
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+}
+.carousel-fade .next {
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+/*==========================jumbotron==============================*/
+
+.jumbotron {
+    color: #fff;
+    text-align: center;
+    padding: 100px 100px 85px;
+    background: url(../image/blackboard.png) no-repeat;
+    -webkit-background-size: auto;
+    background-size: auto;
+}
+.account-btn {
+    font-size: 1.2em;
+    padding: 10px 60px;
+    margin: 10px 20px;
+}
+/*==========================form style==============================*/
+
+.account-input {
+    margin: 10px auto;
+    max-width: 400px;
+}
+.account-group {
+    max-width: 400px;
+    margin: 0 auto;
+    float: none;
+}
+.account-submit {
+    height: 50px;
+    font-size: 1.5em;
+}
+.validate-img {
+    margin-left: 10px;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (min-width: 768px) {
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/* ==============================footer style ==============================*/
+
+.row-fluid {
+    display: table-cell;
+    vertical-align: middle;
+}
+.vertical-center {
+    margin: 0 auto;
+}
+.copyright {
+    color: #7484fd;
+    text-shadow: 2px 2px 2px #1d00ff;
+}
+.footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.fix-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.footer .container {
+    height: 100%;
+    display: table;
+}
+.fix-footer .container {
+    height: 100%;
+    display: table;
+}
+.btn-long {
+    padding-left: 50px;
+    padding-right: 50px;
+}

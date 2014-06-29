@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Masters/Site.master" %>
+
+<script runat="server">
+  
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHoldermainContent" Runat="Server">
+    <div id="welcometopage">
+        欢迎来到教师界面
+        </div>
+  
+    <div id ="userleftContent" style="float:left">
+
+          <div class="line1" ></div>
+       <div class="line2" ></div>
+        <div class="line3" ></div>
+         <div class="LineLeftRight">
+       
+                   <div class="title">
+                    教师菜单
+                </div> 
+                    <div id="pagetype" class="whiteback" style="height:400px;">
+ <%--                  <ul>
+                   <li><a href="~/Default.aspx">用户及角色管理</a></li>  
+                   <li><a href="#">会员管理</a></li>  
+                   <li ><a href="#">处理订单</a></li>  
+                   <li ><a href="#">预订统计</a></li> 
+                   <li ><a href="#">修改密码</a></li>  
+                   <li ><a href="#">审核评价</a></li>
+                  
+               </ul>    --%> 
+                        <asp:TreeView ID="TreeView2" runat="server" DataSourceID="SiteMapDataSource2">
+                        </asp:TreeView>
+                        <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" 
+                            ShowStartingNode="False" SiteMapProvider="TeacherSiteMapProvider"  />
+
+                      
+                       
+                </div>           
+        
+             </div>
+        <div class="line3" ></div>
+         <div class="line2" ></div>
+         <div class="line1" ></div>
+        </div>
+
+
+
+  
+      <div id = "userrightContent" class ="right" >
+          <asp:ContentPlaceHolder ID="ContentPlaceHolderRightContent" runat="server">
+          </asp:ContentPlaceHolder>
+      </div>
+
+        <div class="clear">   </div>
+
+</asp:Content>
+

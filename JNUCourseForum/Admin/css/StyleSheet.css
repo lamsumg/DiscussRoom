@@ -1,0 +1,152 @@
+﻿body
+{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #03A8F6;
+    height: 100px;
+}
+
+/*超级连接*/
+
+
+A
+{
+    text-decoration: none;
+    color: #1E5494;
+    font-weight: bold;
+}
+A:link
+{
+    color: #1E5494;
+    font-weight: bold;
+}
+A:visited
+{
+    color: #1E5494;
+}
+A:hover
+{
+    color: #1E5494;
+}
+A:active
+{
+    color: #1E5494;
+}
+
+
+/*
+头工具栏
+*/
+
+.topbar
+{
+    background: url(images/top_tt_bg.gif) no-repeat;
+    color: #1E5494;
+}
+.topbar A:link
+{
+    color: #1E5494;
+}
+.topbar A:visited
+{
+    color: #1E5494;
+}
+.topbar A:hover
+{
+    color: #8B0000;
+    text-decoration: none;
+}
+
+
+.STYLE2
+{
+    color: #111111;
+}
+.STYLE3
+{
+    color: #993399;
+}
+.STYLE4
+{
+    color: #FFFFFF;
+}
+
+
+/*left*/
+
+#left
+{
+    background-color: #16ACFF;
+    float: left;
+    width: 176px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #A6DEFB;
+}
+#right
+{
+    float: right; width:826px;
+    background-color:White;
+}
+/*table*/
+
+
+.table
+{
+    border: 1px solid #CAF2FF; /*边框颜色*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #B8D3F1;
+}
+.td_bg
+{
+    background: #ffffff;
+  
+}
+
+
+.bg_tr
+{
+    font-family: "微软雅黑,Verdana, 新宋体";
+    color: #1E5494; /*标题字体色*/
+    font-size: 12px;
+    font-weight: bolder;
+    background: #E4F1FA; /*标题背景色*/
+    line-height: 22px;
+}
+td
+{
+    color: #1E5494;
+    font-size: 12px;
+    line-height: 18px;
+}
+.tdbg1
+{
+    background: #F9F9F9;
+}
+.tdbg
+{
+    background: #ffffff;
+}
+
+
+/*table*/
+
+ 
+.nav {font-size: 12px; font-weight: bold; }
+.footerText {
+	color: #03515d; 
+}
+
+
+.tableHeader
+{
+     background-image:url("../images/bg.gif");
+      background-color:#FFFFFF;
+}
+
+img
+{
+    border:0;
+}

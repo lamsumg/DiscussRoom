@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode title="用户控制面板"   description="用户控制面板">
+		<siteMapNode title="申请中心"  />
+		<siteMapNode  title="我参与过的讨论室"   />
+		<siteMapNode title="我参与过的议题"  />
+		<siteMapNode title="我的发表内容"  />
+		<siteMapNode  title="个人资料"   />
+		<siteMapNode  title="修改密码"   />
+	</siteMapNode>
+</siteMap>

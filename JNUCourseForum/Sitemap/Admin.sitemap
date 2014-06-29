@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode  title="后台管理"  roles="管理员">
+
+
+		
+		
+		
+
+		
+
+		<siteMapNode title="系统管理" roles="管理员">
+			<siteMapNode  title="用户和角色"  roles="管理员">
+				<siteMapNode url="~/Admin/Users.aspx" title="用户列表"></siteMapNode>
+				<siteMapNode url="~/Admin/NewUser.aspx" title="添加用户"/>
+			</siteMapNode>
+			<siteMapNode url="~/Admin/Roles.aspx" title="角色管理">
+			</siteMapNode>
+			<siteMapNode title="基础数据维护">
+				<siteMapNode url="~/Admin/Dic/Bank.aspx" title="银行开户帐号"/>
+			</siteMapNode>
+
+		</siteMapNode>
+
+	</siteMapNode>
+
+</siteMap>

@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>讨论室</title>
+    <link href="~/style/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+<div  id = "wapper">            
+ 
+ 
+     
+     <div id = "header">
+
+      
+        
+          <div id ="Div1" >
+        
+        
+          <div id = "logo"  class ="left">
+               <img id="Img1" runat="server" src="~/images/logo.jpg" alt="Logo" /> 
+              </div>
+
+             <div id ="welcome" class ="right">
+             您好，歡迎进入讨论室系统  <a href ="../Login.aspx"> 学生入口</a>  <a href ="../Teacher/Login.aspx">  教师入口</a>  <a href ="../Admin/Login.aspx"> 管理员入口</a>
+             </div>
+         
+           
+
+       </div>
+  
+
+         <div class="clear">   </div>
+         
+          <div id ="head2">
+             
+              
+
+              <div id ="mainmenu" class ="left">
+               <ul>
+                   <li   class ="current"><a href="~/Default.aspx">首頁</a></li>   <li> |</li>
+                   <li class ="current"><a href="#">我的讨论室</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">幫助</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">收藏</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">联系我们</a></li>  
+                  
+                  
+               </ul>
+      
+         </div>
+          
+         </div> 
+
+     <div class="clear">   </div>
+  
+
+      
+      </div>
+
+      <div id = "mainContent" >
+
+          <asp:ContentPlaceHolder ID="ContentPlaceHoldermainContent" runat="server">
+          </asp:ContentPlaceHolder>
+    
+     </div>
+      
+
+
+
+
+
+      <div id = "footer"> 
+
+
+    
+
+           
+         <div id = "copyright" class ="textcenter" >
+           2014版权所有：讨论室联合小组
+        </div>
+
+
+     </div>
+
+
+
+
+
+    </div>
+
+    </form>
+</body>
+</html>
+

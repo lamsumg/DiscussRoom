@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode  title="后台管理"  roles="管理员,教师">
+
+
+
+		<siteMapNode title="讨论室议题管理" roles="管理员">
+			<siteMapNode url="~/Admin/City.aspx" title="课程列表">
+				<siteMapNode url="~/Admin/NewCHRoom1.aspx" title="添加新课程" />
+			</siteMapNode>
+
+			<siteMapNode url="~/Admin/Hotel.aspx" title="讨论室列表">
+				<siteMapNode url="~/Admin/NewCHRoom2.aspx" title="添加新讨论室" />
+			</siteMapNode>
+
+			<siteMapNode url="~/Admin/Room.aspx" title="议题列表">
+				<siteMapNode url="~/Admin/NewCHRoom.aspx" title="添加新议题" />
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode title="讨论室申请管理" roles="管理员,教师">
+			<siteMapNode url="~/Teacher/ApplyList.aspx" title="所有申请">
+
+			</siteMapNode>
+			<siteMapNode url="~/Admin/Payment.aspx" title="收款管理" roles="老师">
+				<siteMapNode url="~/Admin/PaymentToConfirm.aspx" title="待确认申请"/>
+				<siteMapNode url="~/Admin/ConfirmPayment.aspx" title="确认申请"/>
+			</siteMapNode>
+
+
+		</siteMapNode>
+
+
+
+		<siteMapNode title="学生管理" roles="管理员,教师">
+			<siteMapNode  title="学生管理"  roles="管理员">
+				<siteMapNode url="~/Admin/Users.aspx" title="学生列表"></siteMapNode>
+				<siteMapNode url="~/Admin/NewUser.aspx" title="添加学生"/>
+			</siteMapNode>
+			
+			
+
+		</siteMapNode>
+
+	</siteMapNode>
+</siteMap>
