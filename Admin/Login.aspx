@@ -6,7 +6,7 @@
     {
        
         //1.code
-        if (Session["code"] == null || Session["code"].ToString() == "")
+       /* if (Session["code"] == null || Session["code"].ToString() == "")
         {
             LiteralInfo.Text = "验证码不存在"; return;
         }
@@ -14,7 +14,7 @@
         if (Session["code"].ToString() != this.Code.Value)
         {
             LiteralInfo.Text = "验证码不正确"; return;
-        }
+        }*/
 
 
         //2.正式验证
@@ -198,18 +198,7 @@ body {
                                 runat="server" size="16">
                         </td>
                     </tr>
-                    <tr>
-                        <td height="30">
-                            验 证 码
-                        </td>
-                        <td>
-                            <input name="Code" type="text" id="Code" size="4" style="background: url(Images/login_6.gif) repeat-x;
-                                border: solid 1px #27B3FE; height: 20px; background-color: #FFFFFF" maxlength="4"
-                                runat="server">
-                            <img id="imgcode" src="../ImageCodePage.aspx" width="50" height="24" onclick="refresh();"
-                                title="刷新" style="cursor: hand;" />
-                        </td>
-                    </tr>
+                    
                     <tr><td><asp:CheckBox ID="check"  Checked="false" runat="server"/><td>教师请打钩</td></tr>
                     <tr>
                         <td height="40" colspan="2" align="center">
