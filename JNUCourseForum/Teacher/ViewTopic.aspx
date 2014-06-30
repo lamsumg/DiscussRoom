@@ -121,7 +121,7 @@
         </div>
 
               
-               <div class="container"><asp:Button ID="submit2" runat="server" Text="提交" onclick="submit2_Click" /> 
+               <div class="container"><asp:Button ID="submit2" runat="server" Text="提交"  /> 
         </div>
         <div class="statistics col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h3 class="dark-header">JNU</h3>

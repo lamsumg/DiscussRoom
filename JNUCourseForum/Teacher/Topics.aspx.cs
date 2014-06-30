@@ -11,4 +11,9 @@ public partial class Teacher_Topics : System.Web.UI.Page
     {
 
     }
+
+    protected void submit2_Click(object sender, EventArgs e)
+    {
+
+    }
 }
