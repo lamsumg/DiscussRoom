@@ -18,14 +18,15 @@
     private void ShowUserRoles()
     {
         string[] roles = Roles.GetRolesForUser();
-        for (int i = 1; i < 2; i++)
+        LiteralRoles.Text += "教师";
+        /*for (int i = 1; i < 2; i++)
         {
             LiteralRoles.Text += roles[i];
             if (i != roles.Length - 1)
             {
                 LiteralRoles.Text += ",";
             }
-        }
+        }*/
     }
 </script>
 <html xmlns="http://www.w3.org/1999/xhtml">
